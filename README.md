@@ -1,6 +1,6 @@
-#Setup and develop on Linux
+# Setup and develop on Linux
 
-###See also the Pico Ebook
+### See also the Pico Ebook
 
 To "flash" the micropython image to the pico:
 https://www.raspberrypi.org/documentation/pico/getting-started/
@@ -21,7 +21,7 @@ The snap is at this moment the same version as the image for pico
 
 > sudo snap install micropython
 
-###Setup Pycharm for MicroPython
+### Setup Pycharm for MicroPython
 
 Taken from: https://blog.jetbrains.com/pycharm/2018/01/micropython-plugin-for-pycharm/
 
