@@ -18,7 +18,7 @@ def set_led(color="green"):
         led = machine.Pin(3, machine.Pin.OUT)
     led.value(1)
 
-
+reset_led()
 while True:
     set_led('red')
     utime.sleep(2)
