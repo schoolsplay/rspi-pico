@@ -28,6 +28,10 @@ Taken from: https://blog.jetbrains.com/pycharm/2018/01/micropython-plugin-for-py
 4. Setup a py3.6 virtual environment and set it as the pycharm interpreter
 
 > python3.6 -m venv .venv
+> 
+> source ./venv/bin/activate
+> 
+> python3 -m pip install -r requirements.txt
 
 ## Run script from pycharm on the Pico
 
