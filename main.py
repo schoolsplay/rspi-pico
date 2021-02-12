@@ -1,10 +1,12 @@
 """
 Starter for your script.
-Be aware that this uses the buildin LED at pin 25:
+Be aware that this uses the buildin LED at pin 25 and a red LED at pin 2:
     constant green -> module is imported correctly
     constant red at pin 2 -> import or calling module.main failed
 
-It will
+It will import the module in a try/except clause and then call the module 'main'
+method also in a try/except clause.
+If the onboard led is green everything is ok, otherwise the red led will be on
 """
 
 import os
