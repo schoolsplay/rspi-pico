@@ -11,7 +11,6 @@ If the onboard led is green everything is ok, otherwise the red led will be on
 
 import os
 import machine
-import utime
 
 logfile = "main.log"
 try:
