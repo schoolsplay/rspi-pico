@@ -40,7 +40,8 @@ def set_led(ok):
 reset_led()
 
 try:
-    import test as module
+    import test_tm as module
+    #import test as module
     #import test_uart as module
 except Exception as e:
     print("Exception in main importing script")
@@ -56,6 +57,7 @@ else:
         print(e)
         set_led(False)
 
+machine.Pin(25, machine.Pin.OUT).value(0)
 
 print("End of main")
 
