@@ -40,9 +40,10 @@ def set_led(ok):
 reset_led()
 
 try:
-    import test_tm as module
+    #import test_tm as module
     #import test as module
     #import test_uart as module
+    import test_bme as module
 except Exception as e:
     print("Exception in main importing script")
     print(e)
